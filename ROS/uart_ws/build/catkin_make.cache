@@ -1,2 +1,0 @@
-uart_pkg
--DCATKIN_DEVEL_PREFIX=/home/ros-7/uart_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ros-7/uart_ws/install -G Unix Makefiles
