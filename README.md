@@ -20,7 +20,7 @@ VCC          ->           3V
 GND          ->           GND
 ```
 You can see the processes done during programming in the video on Youtube.
-Video->
+Video-> https://www.youtube.com/watch?v=sQWgtBUbNjk
 # ROS PART 
 The operations performed in this section were carried out on the Ubuntu 18.04 operating system. We can start by creating a ROS-based workspace.
 ```apache
