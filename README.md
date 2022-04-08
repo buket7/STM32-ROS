@@ -2,6 +2,9 @@
 Receiving IMU data with STM32F4 and transferring data to ROS based code via UART communication
 # STM32F4 PART 
 I performed the programming of the STM32F4 card through the Windows operating system. I used STM32CubeIDE for programming the STM32F4 board. We set the I2c pins and UART pins that we will use using the STM32CubeIDE. After making the pin adjustments, we move on to the coding part of our STM32F4 floor.
+You can see the processes done during programming in the video on Youtube.
+Video-> https://www.youtube.com/watch?v=sQWgtBUbNjk
+
 # CONNECTION PART
 We used USB to TTL converter for UART communication. The connections of STM32F4 and USB to TTL converter should be as follows;
 ```apache
@@ -19,8 +22,7 @@ SDA          ->           PB7
 VCC          ->           3V
 GND          ->           GND
 ```
-You can see the processes done during programming in the video on Youtube.
-Video-> https://www.youtube.com/watch?v=sQWgtBUbNjk
+
 # ROS PART 
 The operations performed in this section were carried out on the Ubuntu 18.04 operating system. We can start by creating a ROS-based workspace.
 ```apache
