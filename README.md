@@ -62,6 +62,13 @@ Now we are ready to run our code
 ```apache
 $ cd ~/uart_ws
 $ source ~/uart_ws/devel/setup.bash
+$ roscore
+```
+Let's open a new terminal and run our python files
+
+```apache
+$ cd ~/uart_ws
+$ source ~/uart_ws/devel/setup.bash
 $ rosrun uart_pkg uart_pub.py
 $ rosrun uart_pkg uart_sub.py
 ```
